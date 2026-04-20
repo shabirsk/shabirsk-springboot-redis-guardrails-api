@@ -1,0 +1,17 @@
+services:
+  postgres:
+    image: postgres:15
+    container_name: pg_db
+    environment:
+      POSTGRES_DB: assignment
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: password
+      TZ: UTC
+    ports:
+      - "5432:5432"
+
+  redis:
+    image: redis:7
+    container_name: redis_db
+    ports:
+      - "6379:6379"
