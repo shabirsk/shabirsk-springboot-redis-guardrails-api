@@ -94,6 +94,6 @@ Use Postman or any API client
 ---
 
 ## 👨‍💻 Author
-shaik shabir
+
 
 Shaik Shabir
